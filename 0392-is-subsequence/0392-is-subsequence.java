@@ -19,6 +19,7 @@ class Solution {
 
             if (sp >= sArr.length) {
                 answer = true;
+                break;
             }
         }
 
