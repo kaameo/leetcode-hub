@@ -3,28 +3,19 @@ class Solution {
         if(s.length() == 0){
             return true;
         }
-        char[] sArr = s.toCharArray();
-        char[] tArr = t.toCharArray();
         int sp = 0;
         int tp = 0;
-        boolean answer = false;
 
-        while (tp < tArr.length) {
-            if (tArr[tp] == sArr[sp]) {
+        while(sp < s.length() && tp < t.length()){
+            if(s.charAt(sp) == t.charAt(tp)){
                 sp++;
-                tp++;
-            } else {
-                tp++;
             }
 
-            if (sp >= sArr.length) {
-                answer = true;
-                break;
-            }
+            tp++;
         }
 
-        return answer;
+        return sp == s.length();
     }
-    // time complexity O(m) m is t.length
-    // space complexity O(n+m)
+    // time complexity O(m), where m == t.length()
+    // space complexity O(1)
 }
