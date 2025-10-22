@@ -1,20 +1,20 @@
 class Solution {
 
-    public static final Set<Character> VOWELS = Set.of('a', 'e', 'i', 'o', 'u');
+    // public static final Set<Character> VOWELS = Set.of('a', 'e', 'i', 'o', 'u');
 
     public int maxVowels(String s, int k) {
         int winVowels = 0;
         for(int i = 0; i < k; i++){
-            if(VOWELS.contains(s.charAt(i))){
+            if(isVowel(s.charAt(i))){
                 winVowels++;
             }
         }
         int maxVowels = winVowels;
         for (int i = k; i < s.length(); i++) {
-            if(VOWELS.contains(s.charAt(i-k))){
+            if(isVowel(s.charAt(i-k))){
                 winVowels--;
             }
-            if(VOWELS.contains(s.charAt(i))){
+            if(isVowel(s.charAt(i))){
                 winVowels++;
             }
 
@@ -22,6 +22,12 @@ class Solution {
         }
 
         return maxVowels;
+    }
+
+    private boolean isVowel(char c) {
+        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') return true;
+
+        return false;
     }
     // time complexity O(n)
     // space complexity O(1)
