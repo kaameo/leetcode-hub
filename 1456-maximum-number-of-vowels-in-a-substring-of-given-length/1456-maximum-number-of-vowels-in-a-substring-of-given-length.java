@@ -18,9 +18,7 @@ class Solution {
                 winVowels++;
             }
 
-            if(maxVowels < winVowels){
-                maxVowels = winVowels;
-            }
+            maxVowels = Math.max(maxVowels, winVowels);
         }
 
         return maxVowels;
