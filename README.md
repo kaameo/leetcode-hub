@@ -33,7 +33,7 @@ private boolean isVowel(char c) {
 }
 isVowel(targetChar);
 
-# 2번
+// 2번
 Set<Character> VOWELS = Set.of('a', 'e', 'i', 'o', 'u');
 VOWELS.contains(targetChar)
 
