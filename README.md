@@ -39,3 +39,22 @@ VOWELS.contains(targetChar)
 
 // 1번이 더 빠름
 ```
+
+## Map & Set
+
+[문제](1207-unique-number-of-occurrences/1207-unique-number-of-occurrences.java)
+
+### Map
+
+```java
+Map<Integer, Integer> map = new HashMap<>();
+
+for (int i : arr) {
+    map.put(i, map.getOrDefault(i, 0) + 1);
+}
+
+map.values();
+map.keySet();
+```
+
+### Set
