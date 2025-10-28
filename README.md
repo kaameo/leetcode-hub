@@ -53,8 +53,12 @@ for (int i : arr) {
     map.put(i, map.getOrDefault(i, 0) + 1);
 }
 
-map.values();
-map.keySet();
+map.values(); // return Collection(v);
+map.keySet(); // return Set<K>;
 ```
 
 ### Set
+
+```java
+Set<String> names = new HashSet<>(map.values());
+```
