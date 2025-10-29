@@ -22,15 +22,7 @@ class Solution {
         }
 
         // compare keySet
-        Set<Character> set1 = map1.keySet();
-        Set<Character> set2 = map2.keySet();
-
-        for(char c : set1){
-            if(!set2.contains(c)) return false;
-        }
-        for(char c : set2){
-            if(!set1.contains(c)) return false;
-        }
+        if (!map1.keySet().equals(map2.keySet())) return false;
 
         // compare the values list after sort
         List<Integer> list1 = new ArrayList<>(map1.values());
