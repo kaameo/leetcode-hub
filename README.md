@@ -57,6 +57,39 @@ map.values(); // return Collection(v);
 map.keySet(); // return Set<K>;
 ```
 
+---
+
+[문제](2352-equal-row-and-column-pairs/2352-equal-row-and-column-pairs.java)
+
+```java
+ public int equalPairs(int[][] grid) {
+    int n = grid.length;
+    Map<String, Integer> rowCount = new HashMap<>();
+
+    // 각 행을 문자열로 변환해서 개수 저장
+    for (int[] row : grid) {
+        String key = Arrays.toString(row);
+        rowCount.put(key, rowCount.getOrDefault(key, 0) + 1);
+    }
+
+    int ans = 0;
+    // 각 열도 문자열로 변환하여 행 맵에서 조회
+    for (int j = 0; j < n; j++) {
+        int[] col = new int[n];
+        for (int i = 0; i < n; i++) {
+            col[i] = grid[i][j];
+        }
+        String key = Arrays.toString(col);
+        ans += rowCount.getOrDefault(key, 0);
+    }
+
+    return ans;
+}
+
+```
+
+int 배열 비교시 각 index value 비교뿐만 아니라,  String으로 변환후 비교하는 방식도 있음
+
 ### Set
 
 ```java
