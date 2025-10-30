@@ -12,6 +12,16 @@ Arrays.sort(arr);
 
 # String
 
+## char[] to String
+
+```java
+Arrays.toString(charArray);
+// == "[a, b, c, d, e]"
+
+new String(charArray)
+// "abcde"
+```
+
 ## char
 
 ```java
