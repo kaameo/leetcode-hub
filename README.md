@@ -10,6 +10,32 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 Arrays.sort(arr);
 ```
 
+## Deque
+
+### Deque to Array
+
+[문제](0735-asteroid-collision/0735-asteroid-collision.java)
+
+```java
+// deque.size()는 반복문이 도는 동안 줄어듭니다.
+int[] arr = new int[deque.size()];
+for (int i = 0; i < deque.size(); i++) {
+    arr[i] = deque.pollFirst();
+}
+// deque = [5, 10]
+// arr = [5]
+
+// 맞는 코드
+int n = deque.size();
+int[] arr = new int[n];
+for (int i = 0; i < n; i++) {
+    arr[i] = deque.pollFirst();
+}
+// deque = [5, 10]
+// arr = [5, 10]
+
+```
+
 # String
 
 ## char[] to String
