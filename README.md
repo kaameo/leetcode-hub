@@ -136,7 +136,18 @@ Set<String> names = new HashSet<>(map.values());
 
 java.util.Stack 은 약간 구식
 
+
 -> ArrayDeque 사용, String인경우 StringBuilder 사용가능(StringBuilder는 String 변경마다 객체생성 안함)
 ```java
 Deque<Integer> deque = new ArrayDeque<>();
+```
+
+
+## Queue
+
+```java
+// 맞음
+Queue<Integer> queue = new LinkedList<>();
+// 틀림
+Queue<Integer> queue = new ArrayList<>();
 ```
