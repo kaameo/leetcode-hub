@@ -15,34 +15,36 @@
  */
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root== null || (root.right == null && root.right == null && root.val == key))
+        if (root == null)
             return null;
-        TreeNode curr = root;
-        TreeNode prev = null;
-        boolean isPrevLeftNode = false;
-        while (curr != null) {
-            if (curr.val == key) {
-                if(isPrevLeftNode){
-                    prev.left = curr.left;
-                    prev.left.right = curr.right;
-                    curr = null;
-                }else{
-                    prev.right = curr.left;
-                    prev.left.right = curr.right;
-                    curr = null;
-                }
-            } else if (key < curr.val) {
-                prev = curr;
-                isPrevLeftNode = true;
-                curr = curr.left;
+
+        if (key < root.val) {
+            root.left = deleteNode(root.left, key);
+        } else if (key > root.val) {
+            root.right = deleteNode(root.right, key);
+        } else {
+            // delete node
+            if (root.left == null && root.right == null) {
+                return null;
+            } else if (root.left == null) {
+                return root.right;
+            } else if (root.right == null) {
+                return root.left;
             } else {
-                prev = curr;
-                isPrevLeftNode = true;
-                curr = curr.right;
+                TreeNode successor = findMin(root.right);
+                root.val = successor.val;
+                root.right = deleteNode(root.right, successor.val);
             }
         }
         return root;
     }
-    // time complexity O(n)
+
+    private TreeNode findMin(TreeNode node) {
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+    // time complexity O(log n), log n is height of tree
     // space complexity O(1)
 }
