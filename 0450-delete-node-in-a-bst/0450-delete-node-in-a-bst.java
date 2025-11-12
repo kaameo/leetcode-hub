@@ -45,6 +45,6 @@ class Solution {
         }
         return node;
     }
-    // time complexity O(log n), log n is height of tree
-    // space complexity O(1)
+    // time complexity O(h), where h is height of tree
+    // space complexity O(h), because recursive call stack 
 }
