@@ -134,12 +134,15 @@ Set<String> names = new HashSet<>(map.values());
 
 ## Stack
 
-java.util.Stack 은 약간 구식
+> java.util.Stack 은 약간 구식
 
+[문제](0841-keys-and-rooms/0841-keys-and-rooms.java)
 
 -> ArrayDeque 사용, String인경우 StringBuilder 사용가능(StringBuilder는 String 변경마다 객체생성 안함)
 ```java
 Deque<Integer> deque = new ArrayDeque<>();
+deque.push(n);
+deque.pop();
 ```
 
 
