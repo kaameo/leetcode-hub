@@ -26,6 +26,6 @@ class Solution {
         }
         return provinces;
     }
-    // time complexity O(n^2)
+    // time complexity O(n)
     // space complexity O(n)
 }
