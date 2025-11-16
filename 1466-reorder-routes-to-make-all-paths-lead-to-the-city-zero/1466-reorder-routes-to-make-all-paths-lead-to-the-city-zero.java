@@ -38,5 +38,5 @@ class Solution {
         return changed;
     }
     // time complexity O(n)
-    // space complexity O(n^2)
+    // space complexity O(n)
 }
