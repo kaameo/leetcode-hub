@@ -154,3 +154,34 @@ Queue<Integer> queue = new LinkedList<>();
 // 틀림
 Queue<Integer> queue = new ArrayList<>();
 ```
+
+## Record
+
+```java
+// immutable object "record"
+// 내부적으로 final 필드 + private 생성자 자동 생성.
+record Pair(int x, int y, int dist) {}
+
+// mutable object "class"
+// 생성자, getter 직접 생성
+static class Pair {
+    int x;
+    int y;
+    int dist;
+}
+```
+4. 결론: 뭐가 다른가?
+
+============================================================
+
+코드에서 보이는 차이:
+
+- Pair 정의 방식
+- 필드 접근 방식 (x → x())
+
+내부적으로 중요한 차이:
+
+- record는 불변
+- record는 자동 메서드 생성
+- record는 좌표용 데이터 클래스에 적합
+- record는 boilerplate(보일러플레이트 코드)를 줄임
