@@ -157,6 +157,8 @@ Queue<Integer> queue = new ArrayList<>();
 
 ## Record
 
+[문제](1926-nearest-exit-from-entrance-in-maze/1926-nearest-exit-from-entrance-in-maze.java)
+
 ```java
 // immutable object "record"
 // 내부적으로 final 필드 + private 생성자 자동 생성.
