@@ -1,15 +1,5 @@
 class Solution {
-    static class Pair {
-        int x;
-        int y;
-        int dist;
-
-        Pair(int x, int y, int dist) {
-            this.x = x;
-            this.y = y;
-            this.dist = dist;
-        }
-    }
+    record Pair(int x, int y, int dist) {}
 
     public int nearestExit(char[][] maze, int[] entrance) {
         int n = maze.length;
