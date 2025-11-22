@@ -1,5 +1,6 @@
 class Solution {
-    record Pair(int x, int y, int dist) {}
+    record Pair(int x, int y, int dist) {
+    }
 
     public int nearestExit(char[][] maze, int[] entrance) {
         int n = maze.length;
@@ -18,27 +19,24 @@ class Solution {
             Pair cur = queue.poll();
 
             for (int d = 0; d < 4; d++) {
-                int nx = cur.x + dx[d];
-                int ny = cur.y + dy[d];
+                int nx = cur.x() + dx[d];
+                int ny = cur.y() + dy[d];
 
-                if (nx < 0 || nx >= n || ny < 0 || ny >= m) {
+                if (nx < 0 || nx >= n || ny < 0 || ny >= m)
                     continue;
-                }
 
-                // wall or visited path
-                if (maze[nx][ny] == '+' || visited[nx][ny]) {
+                if (maze[nx][ny] == '+' || visited[nx][ny])
                     continue;
-                }
 
                 visited[nx][ny] = true;
 
-                if (isExit(nx, ny, n, m)) {
-                    return cur.dist + 1;
-                }
+                if (isExit(nx, ny, n, m))
+                    return cur.dist() + 1;
 
-                queue.offer(new Pair(nx, ny, cur.dist + 1));
+                queue.offer(new Pair(nx, ny, cur.dist() + 1));
             }
         }
+
         return -1;
     }
 
