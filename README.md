@@ -188,3 +188,56 @@ static class Pair {
 
 ---
 
+## PriorityQueue
+
+```java
+import java.util.PriorityQueue;
+import java.util.Collections;
+
+//낮은 숫자가 우선 순위인 int 형 우선순위 큐 선언
+PriorityQueue<Integer> priorityQueueLowest = new PriorityQueue<>();
+
+//높은 숫자가 우선 순위인 int 형 우선순위 큐 선언
+PriorityQueue<Integer> priorityQueueHighest = new PriorityQueue<>(Collections.reverseOrder());
+```
+
+### Insert
+
+```java
+// add(value) 메서드의 경우 만약 삽입에 성공하면 true를 반환, 
+// 큐에 여유 공간이 없어 삽입에 실패하면 IllegalStateException을 발생
+priorityQueueLowest.add(1);
+priorityQueueLowest.add(10);
+priorityQueueLowest.offer(100);
+
+priorityQueueHighest.add(1);
+priorityQueueHighest.add(10);
+priorityQueueHighest.offer(100);
+```
+
+### Delete
+
+```java
+// 첫번째 값을 반환하고 제거 비어있다면 null
+priorityQueueLowest.poll();
+
+// 첫번째 값 제거 비어있다면 예외 발생
+priorityQueueLowest.remove(); 
+
+// 첫번째 값을 반환만 하고 제거 하지는 않는다.
+// 큐가 비어있다면 null을 반환
+priorityQueueLowest.peek();
+
+// 첫번째 값을 반환만 하고 제거 하지는 않는다.
+// 큐가 비어있다면 예외 발생
+priorityQueueLowest.element();
+
+// 초기화
+priorityQueueLowest.clear();    
+```
+
+---
+
+
+
+
