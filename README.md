@@ -190,6 +190,7 @@ static class Pair {
 
 ## PriorityQueue
 
+[문제](0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.java)
 ```java
 import java.util.PriorityQueue;
 import java.util.Collections;
@@ -234,6 +235,29 @@ priorityQueueLowest.element();
 
 // 초기화
 priorityQueueLowest.clear();    
+```
+
+### Search
+
+[문제](2336-smallest-number-in-infinite-set/2336-smallest-number-in-infinite-set.java)
+
+```java
+priorityQueue.contains(num);
+// PriorityQueue.contains() 함수는 다음과 같이 구현되어 있음
+
+public boolean contains(Object o) {
+    return indexOf(o) != -1;
+}
+
+private int indexOf(Object o) {
+    if (o != null) {
+        for (int i = 0; i < size; i++)
+            if (o.equals(queue[i]))
+                return i;
+    }
+    return -1;
+}
+// 따라서 PriorityQueue의 contains() 함수는 O(n)의 time complexity 를 가짐
 ```
 
 ---
