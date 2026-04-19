@@ -280,5 +280,10 @@ private int indexOf(Object o) {
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0136-single-number](https://github.com/kaameo/leetcode-hub/tree/main/0136-single-number/) | Easy |
 | [0338-counting-bits](https://github.com/kaameo/leetcode-hub/tree/main/0338-counting-bits/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0136-single-number](https://github.com/kaameo/leetcode-hub/tree/main/0136-single-number/) | Easy |
 <!---LeetCode Topics End-->
