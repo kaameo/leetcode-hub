@@ -276,4 +276,9 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0072-edit-distance](https://github.com/kaameo/leetcode-hub/tree/main/0072-edit-distance/) | Medium |
+| [0338-counting-bits](https://github.com/kaameo/leetcode-hub/tree/main/0338-counting-bits/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0338-counting-bits](https://github.com/kaameo/leetcode-hub/tree/main/0338-counting-bits/) | Easy |
 <!---LeetCode Topics End-->
