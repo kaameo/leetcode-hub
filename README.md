@@ -282,6 +282,7 @@ private int indexOf(Object o) {
 | ------- | ------- |
 | [0136-single-number](https://github.com/kaameo/leetcode-hub/tree/main/0136-single-number/) | Easy |
 | [0338-counting-bits](https://github.com/kaameo/leetcode-hub/tree/main/0338-counting-bits/) | Easy |
+| [1318-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/kaameo/leetcode-hub/tree/main/1318-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
