@@ -279,6 +279,7 @@ private int indexOf(Object o) {
 | ------- | ------- |
 | [0072-edit-distance](https://github.com/kaameo/leetcode-hub/tree/main/0072-edit-distance/) | Medium |
 | [0338-counting-bits](https://github.com/kaameo/leetcode-hub/tree/main/0338-counting-bits/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -289,6 +290,7 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0136-single-number](https://github.com/kaameo/leetcode-hub/tree/main/0136-single-number/) | Easy |
+| [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -310,9 +312,14 @@ private int indexOf(Object o) {
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
 <!---LeetCode Topics End-->
