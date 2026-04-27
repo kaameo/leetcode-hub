@@ -291,6 +291,7 @@ private int indexOf(Object o) {
 | ------- | ------- |
 | [0136-single-number](https://github.com/kaameo/leetcode-hub/tree/main/0136-single-number/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/kaameo/leetcode-hub/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -313,6 +314,7 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/kaameo/leetcode-hub/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -322,4 +324,5 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/kaameo/leetcode-hub/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 <!---LeetCode Topics End-->
