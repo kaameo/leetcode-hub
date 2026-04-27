@@ -9,7 +9,7 @@ class Solution {
         int cnt = 1;
         int arrowX = points[0][1];
 
-        for (int i = 0; i < points.length; i++) {
+        for (int i = 1; i < points.length; i++) {
             if (points[i][0] > arrowX) {
                 cnt++;
                 arrowX = points[i][1];
