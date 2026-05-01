@@ -330,6 +330,7 @@ private int indexOf(Object o) {
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kaameo/leetcode-hub/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0399-evaluate-division](https://github.com/kaameo/leetcode-hub/tree/main/0399-evaluate-division/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -347,4 +348,12 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0399-evaluate-division](https://github.com/kaameo/leetcode-hub/tree/main/0399-evaluate-division/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kaameo/leetcode-hub/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kaameo/leetcode-hub/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 <!---LeetCode Topics End-->
