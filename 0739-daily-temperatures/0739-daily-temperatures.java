@@ -1,0 +1,22 @@
+class Solution {
+    public int[] dailyTemperatures(int[] temperatures) {
+        int n = temperatures.length;
+        int[] answer = new int[n];
+
+        Deque<Integer> stack = new ArrayDeque<>();
+
+        for (int i = 0; i < n; i++) {
+            while (!stack.isEmpty() && temperatures[i] > temperatures[stack.peek()]) {
+                int prev = stack.pop();
+                answer[prev] = i - prev;
+            }
+            stack.push(i);
+        }
+
+        System.out.println(Arrays.toString(answer));
+
+        return answer;
+    }
+    // time complexity O(n)
+    // space complexity O(n)
+}
