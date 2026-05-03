@@ -275,6 +275,7 @@ private int indexOf(Object o) {
 | [0208-implement-trie-prefix-tree](https://github.com/kaameo/leetcode-hub/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0399-evaluate-division](https://github.com/kaameo/leetcode-hub/tree/main/0399-evaluate-division/) | Medium |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
+| [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/kaameo/leetcode-hub/tree/main/3258-count-substrings-that-satisfy-k-constraint-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -360,4 +361,8 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1114-print-in-order](https://github.com/kaameo/leetcode-hub/tree/main/1114-print-in-order/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/kaameo/leetcode-hub/tree/main/3258-count-substrings-that-satisfy-k-constraint-i/) | Easy |
 <!---LeetCode Topics End-->
