@@ -356,4 +356,8 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kaameo/leetcode-hub/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
+## Concurrency
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1114-print-in-order](https://github.com/kaameo/leetcode-hub/tree/main/1114-print-in-order/) | Easy |
 <!---LeetCode Topics End-->
