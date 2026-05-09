@@ -271,6 +271,7 @@ private int indexOf(Object o) {
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0013-roman-to-integer](https://github.com/kaameo/leetcode-hub/tree/main/0013-roman-to-integer/) | Easy |
 | [0072-edit-distance](https://github.com/kaameo/leetcode-hub/tree/main/0072-edit-distance/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/kaameo/leetcode-hub/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0399-evaluate-division](https://github.com/kaameo/leetcode-hub/tree/main/0399-evaluate-division/) | Medium |
@@ -301,6 +302,7 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/kaameo/leetcode-hub/tree/main/0001-two-sum/) | Easy |
+| [0013-roman-to-integer](https://github.com/kaameo/leetcode-hub/tree/main/0013-roman-to-integer/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/kaameo/leetcode-hub/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -367,4 +369,8 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/kaameo/leetcode-hub/tree/main/3258-count-substrings-that-satisfy-k-constraint-i/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0013-roman-to-integer](https://github.com/kaameo/leetcode-hub/tree/main/0013-roman-to-integer/) | Easy |
 <!---LeetCode Topics End-->
