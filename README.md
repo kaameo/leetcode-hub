@@ -291,6 +291,7 @@ private int indexOf(Object o) {
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/kaameo/leetcode-hub/tree/main/0001-two-sum/) | Easy |
 | [0136-single-number](https://github.com/kaameo/leetcode-hub/tree/main/0136-single-number/) | Easy |
 | [0399-evaluate-division](https://github.com/kaameo/leetcode-hub/tree/main/0399-evaluate-division/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/kaameo/leetcode-hub/tree/main/0435-non-overlapping-intervals/) | Medium |
@@ -299,6 +300,7 @@ private int indexOf(Object o) {
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/kaameo/leetcode-hub/tree/main/0001-two-sum/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/kaameo/leetcode-hub/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 ## Design
 | Problem Name | Difficulty |
