@@ -304,10 +304,12 @@ private int indexOf(Object o) {
 | [0001-two-sum](https://github.com/kaameo/leetcode-hub/tree/main/0001-two-sum/) | Easy |
 | [0013-roman-to-integer](https://github.com/kaameo/leetcode-hub/tree/main/0013-roman-to-integer/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/kaameo/leetcode-hub/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [2336-smallest-number-in-infinite-set](https://github.com/kaameo/leetcode-hub/tree/main/2336-smallest-number-in-infinite-set/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/kaameo/leetcode-hub/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [2336-smallest-number-in-infinite-set](https://github.com/kaameo/leetcode-hub/tree/main/2336-smallest-number-in-infinite-set/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -327,6 +329,7 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1268-search-suggestions-system](https://github.com/kaameo/leetcode-hub/tree/main/1268-search-suggestions-system/) | Medium |
+| [2336-smallest-number-in-infinite-set](https://github.com/kaameo/leetcode-hub/tree/main/2336-smallest-number-in-infinite-set/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -373,4 +376,8 @@ private int indexOf(Object o) {
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/kaameo/leetcode-hub/tree/main/0013-roman-to-integer/) | Easy |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2336-smallest-number-in-infinite-set](https://github.com/kaameo/leetcode-hub/tree/main/2336-smallest-number-in-infinite-set/) | Medium |
 <!---LeetCode Topics End-->
