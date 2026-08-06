@@ -1,28 +1,30 @@
 class SmallestInfiniteSet {
 
-    private int i;
-    private PriorityQueue<Integer> pQueue;
+    private int current;
+    private PriorityQueue<Integer> minHeap;
+    private Set<Integer> addedBack;
 
     public SmallestInfiniteSet() {
-        i = 1;
-        pQueue = new PriorityQueue<>();
+        current = 1;
+        minHeap = new PriorityQueue<>();
+        addedBack = new HashSet<>();
     }
     
     public int popSmallest() {
-        if(!pQueue.isEmpty()){
-            return pQueue.poll();
+        if(!minHeap.isEmpty()){
+            int smallest = minHeap.poll();
+            addedBack.remove(smallest);
+            return smallest;
         }
-        return i++;
+
+        return current++;
     }
     
     public void addBack(int num) {
-        if(i <= num || pQueue.contains(num))
-            return;
-        
-        pQueue.offer(num);
+        if(num < current && addedBack.add(num)){
+            minHeap.offer(num);
+        }
     }
-    // time complexity O(n), because PrioriQueue.contains() runs in O(n)
-    // space complexity O(n), because of priority queue
 }
 
 /**
